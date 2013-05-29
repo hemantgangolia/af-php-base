@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="My first Web Page">
+    <Link rel="event.addapp" href="http://firstwebpage.ap01.aws.af.cm/add" method="GET" />
+    <Link rel="event.removeapp" href="http://firstwebpage.ap01.aws.af.cm/remove" method="GET" />
   </ModulePrefs>
   <Content view="mobile" type="url" href="http://firstwebpage.ap01.aws.af.cm/" />
   <Content view="touch" type="url" href="http://firstwebpage.ap01.aws.af.cm/" />
